@@ -1,0 +1,28 @@
+# Ignorowanie folderów i plików związanych z Visual Studio
+.vs/
+bin/
+obj/
+
+# Pliki użytkownika i konfiguracji projektu
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Ignorowanie folderów IDE (VS Code, Rider)
+.vscode/
+.idea/
+
+# Ignorowanie plików tymczasowych i logów systemowych
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorowanie wyników kompilacji dla różnych architektur
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm/
+arm64/
+bld/
